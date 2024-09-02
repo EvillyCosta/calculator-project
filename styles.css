@@ -18,20 +18,25 @@ body {
 }
 
 .placeholder {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 6em;
+    display: grid;
+    grid-template-columns: 1f 1f 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 40px;
+    
 }
 
 #display {
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-row-start: 1;
+    grid-row-end: 4;
     text-align: right;
-    height: 3em;
-    background-color: aliceblue;
     border: none;
     border-radius: 0.5em;
     color: black;
-    font-size:x-large;
+    background-color: aliceblue;
+    margin-top: 10px;
+    font-size: x-large;
 }
 
 .line > a {
@@ -45,29 +50,43 @@ div > div > a {
 }
 
 .line {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    margin-top: 2em;
-    
-}
-
-.foot {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.b {
-    font-size: x-large;
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 
 .a {
-    background-color: rosybrown; 
-    padding: 20px;
+    background-color: rgb(226, 123, 140);
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
 }
 
+.equal {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    height: 140px;
+    
+}
 
-/*alterar tudo para grid*/
+.dot {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
