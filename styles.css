@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.background {
+    background-color: rosybrown;
+}
+
+.square {
+    width: 20%;
+    margin: 40%;
+    height: 65%;
+    background-color: brown;
+    border-radius: 1em;
+    border: 0.1em solid black;
+}
+
+.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6em;
+}
+
+#display {
+    text-align: right;
+    height: 3em;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 0.5em;
+    color: black;
+    font-size:x-large;
+}
+
+.line > a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+div > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 2em;
+    
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.b {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
+
+.a {
+    background-color: rosybrown; 
+    padding: 20px;
+}
+
+
+/*alterar tudo para grid*/
