@@ -114,7 +114,32 @@ body {
     }
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+    #display {
+        font-size:small;
+    }
+
+    .square {
+        width: 80%;
+        margin: 10%;
+        height: 54%;
+    }
+
+    .line {
+        font-size: 16px;
+        gap: 6px;
+    }
+
+    .a {
+        height: 50px;
+    }
+
+    .equal {
+        height: 110px;
+    }
+}
+
+@media (min-width: 300px) {
     #display {
         font-size:small;
     }
