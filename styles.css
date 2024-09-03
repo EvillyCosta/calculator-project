@@ -11,9 +11,9 @@ body {
 .square {
     width: 20%;
     margin: 40%;
-    height: 65%;
-    background-color: brown;
-    border-radius: 1em;
+    height: 59%;
+    background-color: #ff5757;
+    border-radius: 2em;
     border: 0.1em solid black;
 }
 
@@ -25,47 +25,47 @@ body {
     
 }
 
+/*descobrir como deixar o display responsivo*/
 #display {
     margin-left: 10px;
     margin-right: 10px;
     grid-row-start: 1;
     grid-row-end: 4;
-    text-align: right;
+    text-align: left;
     border: none;
-    border-radius: 0.5em;
-    color: black;
-    background-color: aliceblue;
+    border-radius: 0.8em;
+    font-family: 'Bree Serif', sans-serif;
+    background-color: #d2d2d2;
     margin-top: 10px;
     font-size: x-large;
+    color: black;
+    width: auto;
 }
 
 .line > a {
     text-decoration: none;
-    color: black;
-    font-size: large;
-}
-div > div > a {
-    text-decoration: none;
-    color: black;
 }
 
 .line {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 8px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 15px;
+    font-family: 'Bree Serif', sans-serif;
+    font-size: 25px;
 }
 
 .a {
-    background-color: rgb(226, 123, 140);
+    background-color: #991b1b;
     height: 60px;
-    margin-top: 10px;
+    margin-top: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.5em;
+    border-radius: 1em;
+    color: black;
 }
 
 .equal {
@@ -73,8 +73,10 @@ div > div > a {
     grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 6;
-    height: 140px;
-    
+    height: 135px;
+    color: aliceblue;
+    background-color: black;
+    margin: 0;
 }
 
 .dot {
@@ -82,6 +84,7 @@ div > div > a {
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 6;
+    margin: 0;
 }
 
 .zero {
@@ -89,4 +92,11 @@ div > div > a {
     grid-column-end: 3;
     grid-row-start: 5;
     grid-row-end: 6;
+    margin: 0;
 }
+
+.c {
+    color: aliceblue;
+    background-color: black;
+}
+
