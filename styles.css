@@ -114,7 +114,7 @@ body {
     }
 }
 
-@media (min-width: 300px) {
+@media (min-width: 200px) {
     #display {
         font-size:small;
     }
