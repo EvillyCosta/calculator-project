@@ -1,6 +1,6 @@
 # Calculadora Web
 
-![calculadora](calculator(2).png)
+![calculadora](calculator.png)
 
 Uma calculadora web simples e elegante desenvolvida utilizando HTML, CSS e JavaScript. Este projeto é uma demonstração prática de como criar uma interface de usuário interativa e funcional para realizar operações matemáticas básicas.
 
