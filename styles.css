@@ -33,7 +33,7 @@ body {
     margin-right: 10px;
     grid-row-start: 1;
     grid-row-end: 4;
-    text-align: left;
+    text-align: right;
     border: none;
     border-radius: 0.8em;
     font-family: 'Bree Serif', sans-serif;
