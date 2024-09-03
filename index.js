@@ -7,11 +7,10 @@ function addToDisplay(value) {
 
     if (value === '=') {
         display.value = eval(display.value);
-      if (eval(display.value) == 'Infinity') {
-         eval(display.value) == '0';
-     }
-    //eval converte a string e valor
-
+          if (eval(display.value) == Infinity) { //eval converte a string e valor
+                 display.value = '0';
+          }
+        
     } else if (value === 'C') {
         display.value = display.value.slice(0, -1); //.slice, método que extrai uma parte da string, (a(indice), (b)final)
 
